@@ -1,0 +1,298 @@
+{
+	"info": {
+		"_postman_id": "4447b6b7-3b54-496a-bf95-a8ce363a84cd",
+		"name": "MathAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Somar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"num\": 15,\r\n    \"sums\": [5, 15, 8, 7, 1, 0, 9]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/somar.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"somar.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subtrair",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"num\": 150,\r\n    \"subs\": [5, 15, 8, 7, 1, 0, 9]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/subtrair.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"subtrair.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dividir",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"num\": 150,\r\n    \"divs\": [2, 2, 2]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/dividir.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"dividir.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Potência",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"num\": 2,\r\n    \"pows\": [2, 2, 2]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/potencia.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"potencia.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplicar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"num\": 150,\r\n    \"mults\": [2, 5, 6]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/multiplicar.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"multiplicar.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Raiz Quadrada",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nums\": [9, 60, 90]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/raiz.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"raiz.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Moda",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nums\": [9, 60, 90, 8, 7, 7, 7, 8, 8, 90, 100]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/moda.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"moda.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Média Aritmética",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nums\": [100, 50, 150]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/media_aritmetica.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"media_aritmetica.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Média Ponderada",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vals\": [\r\n        {\r\n            \"val\": 100,\r\n            \"peso\": 2\r\n        }, {\r\n            \"val\": 50,\r\n            \"peso\": 2\r\n        }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "https://mathapi.herokuapp.com/api/v1/media_ponderada.php",
+					"protocol": "https",
+					"host": [
+						"mathapi",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"media_ponderada.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
